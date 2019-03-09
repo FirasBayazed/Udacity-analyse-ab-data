@@ -1,0 +1,14 @@
+
+new_converted_simulation = np.random.binomial(n_new, p_new,  10000)/n_new
+old_converted_simulation = np.random.binomial(n_old, p_old,  10000)/n_old
+p_diffs = new_converted_simulation - old_converted_simulation
+ 
+
+mine:
+
+new_page_converted = np.random.binomial(1, p_new, n_new)
+new_page_converted 
+_____________________________________________________
+
+old_page_converted = np.random.binomial(1, p_old,n_old)
+old_page_converted
